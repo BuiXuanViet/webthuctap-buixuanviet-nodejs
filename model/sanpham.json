@@ -1,0 +1,91 @@
+{
+    "sanpham" : [
+        {
+            "id" : 1,
+            "tensp" : " giay dep",
+            "bigImage" : "/anhsp/sp1/1.jpg",
+            "productImage1": "/anhsp/sp1/1.jpg",
+            "productImage2" : "/anhsp/sp1/2.jpg",
+            "productImage3" : "/anhsp/sp1/3.jpg",
+            "productImage4" : "/anhsp/sp1/4.jpg",
+            "productImage5" : "/anhsp/sp1/5.jpg",
+            "productImage6" : "/anhsp/sp1/6.jpg",
+            "trangthai" : "sale",
+            "mota" : "được sản xuất theo bộ sưu tập của nhà văn alibaba",
+            "chitietsanpham" : " So perhaps, you've generated some fancy text, and you're content that you can now copy and paste your fancy text in the comments section of funny cat videos, but perhaps you're wondering how it's even",
+            "giagoc": "250$",
+            "giasale" : " 199$",
+            "duongdanSEO" : "adidas-dep-ma-hia-chi-100"
+        },
+        {
+            "id" : 2,
+            "tensp" : " giay dep",
+            "bigImage" : "/anhsp/sp2/1.jpg",
+            "productImage1": "/anhsp/sp2/1.jpg",
+            "productImage2" : "/anhsp/sp2/2.jpg",
+            "productImage3" : "/anhsp/sp2/3.jpg",
+            "productImage4" : "/anhsp/sp2/4.jpg",
+            "productImage5" : "/anhsp/sp2/5.jpg",
+            "productImage6" : "/anhsp/sp2/6.jpg",
+            "trangthai" : "sale",
+            "mota" : "được sản xuất theo bộ sưu tập của nhà văn alibaba",
+            "chitietsanpham" : " So perhaps, you've generated some fancy text, and you're content that you can now copy and paste your fancy text in the comments section of funny cat videos, but perhaps you're wondering how it's even",
+            "giagoc": "250$",
+            "giasale" : " 199$",
+            "duongdanSEO" : "adidas-dep-ma-hia-chi-100"
+        },
+        {
+            "id" : 3,
+            "tensp" : " giay dep",
+            "bigImage" : "/anhsp/sp3/1.jpg",
+            "productImage1": "/anhsp/sp3/1.jpg",
+            "productImage2" : "/anhsp/sp3/2.jpg",
+            "productImage3" : "/anhsp/sp3/3.jpg",
+            "productImage4" : "/anhsp/sp3/4.jpg",
+            "productImage5" : "/anhsp/sp3/5.jpg",
+            "productImage6" : "/anhsp/sp3/6.jpg",
+            "trangthai" : "sale",
+            "mota" : "được sản xuất theo bộ sưu tập của nhà văn alibaba",
+            "chitietsanpham" : " So perhaps, you've generated some fancy text, and you're content that you can now copy and paste your fancy text in the comments section of funny cat videos, but perhaps you're wondering how it's even",
+            "giagoc": "250$",
+            "giasale" : " 199$",
+            "duongdanSEO" : "adidas-dep-ma-hia-chi-100"
+        },
+        {
+            "id" : 4,
+            "tensp" : " giay dep",
+            "bigImage" : "/anhsp/sp4/1.jpg",
+            "productImage1": "/anhsp/sp4/1.jpg",
+            "productImage2" : "/anhsp/sp4/2.jpg",
+            "productImage3" : "/anhsp/sp4/3.jpg",
+            "productImage4" : "/anhsp/sp4/4.jpg",
+            "productImage5" : "/anhsp/sp4/5.jpg",
+            "productImage6" : "/anhsp/sp4/6.jpg",
+            "trangthai" : "sale",
+            "mota" : "được sản xuất theo bộ sưu tập của nhà văn alibaba",
+            "chitietsanpham" : " So perhaps, you've generated some fancy text, and you're content that you can now copy and paste your fancy text in the comments section of funny cat videos, but perhaps you're wondering how it's even",
+            "giagoc": "250$",
+            "giasale" : " 199$",
+            "duongdanSEO" : "adidas-dep-ma-hia-chi-100"
+        },
+        {
+            "id" : 5,
+            "tensp" : " giay dep",
+            "bigImage" : "/anhsp/sp5/1.jpg",
+            "productImage1": "/anhsp/sp5/1.jpg",
+            "productImage2" : "/anhsp/sp5/2.jpg",
+            "productImage3" : "/anhsp/sp5/3.jpg",
+            "productImage4" : "/anhsp/sp5/4.jpg",
+            "productImage5" : "/anhsp/sp5/5.jpg",
+            "productImage6" : "/anhsp/sp5/6.jpg",
+            "trangthai" : "sale",
+            "mota" : "được sản xuất theo bộ sưu tập của nhà văn alibaba",
+            "chitietsanpham" : " So perhaps, you've generated some fancy text, and you're content that you can now copy and paste your fancy text in the comments section of funny cat videos, but perhaps you're wondering how it's even",
+            "giagoc": "250$",
+            "giasale" : " 199$",
+            "duongdanSEO" : "adidas-dep-ma-hia-chi-100"
+        }
+    ]
+}
+
+

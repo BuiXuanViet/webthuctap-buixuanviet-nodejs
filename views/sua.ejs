@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>
+    <%= title %>
+  </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class="display-3">sửa dữ liệu</h1>
+            <p class="lead">vào mongodb</p>
+            <hr class="my-2">
+              
+        </div>
+
+        <% data.forEach(function (mot){ %>
+            <form action="/sua/<%= mot._id %>" method ="post" >
+                <div class="form-group">
+                    <label for="tensp">Tên sản phẩm</label>
+                    <input type="text" name="tensp" id="" class="form-control" placeholder="" value="<%= mot.tensp%>" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted"> ten sp </small>
+                </div>
+
+                <div class="form-group">
+                   <label for="bigImage">Ảnh chính</label>
+                    <input type="text" name="bigImage" id="" class="form-control" placeholder="" value="<%= mot.bigImage%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">bigImage</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="productImage1">ảnh nhỏ 1</label>
+                    <input type="text" name="productImage1" id="" class="form-control" placeholder="" value="<%= mot.productImage1%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">productImage1</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="productImage2">ảnh nhỏ 2</label>
+                    <input type="text" name="productImage2" id="" class="form-control" placeholder="" value="<%= mot.productImage2%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">productImage2</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="productImage3">ảnh nhỏ 3</label>
+                    <input type="text" name="productImage3" id="" class="form-control" placeholder="" value="<%= mot.productImage3%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">productImage3</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="productImage4">ảnh nhỏ 4</label>
+                    <input type="text" name="productImage4" id="" class="form-control" placeholder="" value="<%= mot.productImage4%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">productImage4</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="productImage5">ảnh nhỏ 5</label>
+                    <input type="text" name="productImage5" id="" class="form-control" placeholder="" value="<%= mot.productImage5%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">productImage5</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="productImage6">ảnh nhỏ 6</label>
+                    <input type="text" name="productImage6" id="" class="form-control" placeholder="" value="<%= mot.productImage6%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">productImage6</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="trangthai">Trạng thái của sản phẩm</label>
+                    <input type="text" name="trangthai" id="" class="form-control" placeholder="" value="<%= mot.trangthai%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">trangthai</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="mota">Mô tả sản phẩm</label>
+                    <input type="text" name="mota" id="" class="form-control" placeholder="" value="<%= mot.mota%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">mota</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="chitietsanpham">Chi tiết về sản phẩm</label>
+                    <input type="text" name="chitietsanpham" id="" class="form-control" placeholder="" value="<%= mot.chitietsanpham%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">chitietsanpham</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="giagoc">Gía bán gốc</label>
+                    <input type="text" name="giagoc" id="" class="form-control" placeholder="" value="<%= mot.giagoc%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">giagoc</small>
+                </div>
+
+                <div class="form-group">
+                   <label for="giasale">giá đã sale</label>
+                    <input type="text" name="giasale" id="" class="form-control" placeholder="" value="<%= mot.giasale%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">giasale</small>
+                </div>
+
+                 <div class="form-group">
+                    <label for="duongdanSEO">Đường dẫn SEO</label>
+                    <input type="text" name="duongdanSEO" id="" class="form-control" placeholder="" value="<%= mot.duongdanSEO%>"  aria-describedby="helpId">
+                    <small id="helpId" class="text-muted">duongdanSEO</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        <% }) %>
+    </div>
+
